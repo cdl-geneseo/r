@@ -23,7 +23,7 @@ To prepare for the workshop, you should
 1. Install R and R Studio ([Step-by-step video](video1))
     - Choose and install a CRAN mirror from a close location (Statlib, Carnegie Mellon University, Pittsburgh, PA
 recommended for Geneseo participants)
-    - Run the `.exe` file (Windows) or `.pkg`
+    - Run the `.exe` file (Windows) or `.pkg` (Mac)
     - Download RStudio [Mac](https://rstudio.com/products/rstudio/download/#download) | [Windows](https://rstudio.com/products/rstudio/download/#download)
 2. Install necessary packages ([Step-by-step video](video2))
     - Via Command-Line
@@ -37,3 +37,13 @@ recommended for Geneseo participants)
 <hr>
 
 ## Acknowledgements
+
+- Current author: Matt Pastizzo, Ph.D., Department of Psychology, SUNY Geneseo
+- Contributing editor: Amanda Wentworth
+- Contributing editor: Paul Schacht
+
+---
+
+<sub>[Getting Started With R] by [The Center for Digital Learning at SUNY Geneseo](https://www.geneseo.edu/cdl) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). When sharing this material or derivative works, preserve this paragraph, changing only the title of the derivative work, or provide comparable attribution.</sub>
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
