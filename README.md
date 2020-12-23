@@ -18,7 +18,11 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 
 ## Setting ourselves up
 
-To prepare for the workshop, you should
+To prepare for the workshop, you should install both R and R Studio.
+
+
+Please start by installing R first, then install R Studio.
+
 
 1. Install R and R Studio ([Step-by-step video](video1))
     - Choose and install a CRAN mirror from a close location (Statlib, Carnegie Mellon University, Pittsburgh, PA
