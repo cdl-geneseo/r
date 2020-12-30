@@ -6,7 +6,7 @@ While R and its development environment, RStudio, are free to access and use, th
 
 In this workshop, you'll learn about
 
-1. Importing data (CSV, XLSX)
+1. [Importing data (CSV, XLSX)](sections/01-importing-data.md)
 2. Validating data structure
 3. Renaming & recoding variables
 4. Merging, filtering & aggregating data
