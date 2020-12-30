@@ -18,21 +18,22 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 
 ## Setting ourselves up
 
-To prepare for the workshop, you should install both R and R Studio.
+To prepare for the workshop, we recommend installing both R and R Studio.
 
+[Step-by-step video](video1)
 
-Please start by installing R first, then install R Studio.
+1. Download & Install R (base package)
+    - Download: [Windows](https://cran.r-project.org/bin/windows/base/) | [Mac](https://cran.r-project.org/bin/macosx/)
+    - Run: Windows (`.exe` file) | Mac (`.pkg` )
 
+2. Download & Install R Studio
+    - [Windows/Mac](https://rstudio.com/products/rstudio/download/#download)
 
-1. Install R and R Studio ([Step-by-step video](video1))
-    - Choose and install a CRAN mirror from a close location (Statlib, Carnegie Mellon University, Pittsburgh, PA
-recommended for Geneseo participants)
-    - Run the `.exe` file (Windows) or `.pkg` (Mac)
-    - Download RStudio [Mac](https://rstudio.com/products/rstudio/download/#download) | [Windows](https://rstudio.com/products/rstudio/download/#download)
-2. Install necessary packages ([Step-by-step video](video2))
+3. Install necessary packages ([Step-by-step video](video2))
     - Via Command-Line
     - Via RStudio
-3. Download [CSV](file1) and [XLSX](file2) files to use during workshop
+
+4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
 
 <hr>
 
