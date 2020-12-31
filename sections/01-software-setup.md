@@ -4,7 +4,7 @@
 
 ## Setting ourselves up
 
-To prepare for the workshop, we recommend installing both *R* and *R* Studio ([Step-by-step video](video1)). You will also need to install several packages. A package is a collection of functions written by various contributors that extend the base functionality.
+To prepare for the workshop, we recommend installing both *R* and *R* Studio ([Step-by-step video](video1)). You will also need to install several packages. A package is a collection of [functions](#functions) written by various contributors that extend the base functionality.
 
 > **Hint**: Use CMD+click (Mac) or CTRL+click (Windows) to open external links in another tab
 
@@ -19,8 +19,13 @@ To prepare for the workshop, we recommend installing both *R* and *R* Studio ([S
     - Open *R* Studio
     - Locate the Console
     - At the command prompt (>), type (**case-sensitive**):
+
 ```r
 install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2", "ggwordcloud"))
 ```
 
 4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
+
+## Functions
+
+*R* is all about the functions. 
