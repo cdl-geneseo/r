@@ -1,10 +1,8 @@
 # 1. Getting Started
----
+
 ## Setting ourselves up
 
-To prepare for the workshop, we recommend installing both *R* and *R* Studio.
-
-[Step-by-step video](video1)
+To prepare for the workshop, we recommend installing both *R* and *R* Studio ([Step-by-step video](video1)). You will also need to install several packages. A package is a collection of functions written by various contributors that extend the base functionality.
 
 **Hint**: Use CMD+click (Mac) or CTRL+click (Windows) to open external links in another tab
 
