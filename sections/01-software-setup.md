@@ -1,4 +1,6 @@
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Importing Data](02-importing-data.md) →
 # 1. Getting Started
+---
 
 ## Setting ourselves up
 
