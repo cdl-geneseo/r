@@ -13,7 +13,7 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 
 ## Lessons
 
-1. [Getting Started](sections/01-software-setup.md)
+1. [Getting started: Software setup](sections/01-software-setup.md)
 2. [Importing data (CSV, XLSX)](sections/02-importing-data.md)
 3. [Validating data structure](sections/03-validating-data.md)
 4. Renaming & recoding variables
