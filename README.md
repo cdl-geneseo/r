@@ -23,7 +23,7 @@ To prepare for the workshop, we recommend installing both *R* and *R* Studio.
 [Step-by-step video](video1)
 
 1. Download & Install *R* (base package)
-    - Download the appropriate version: [Windows](https://cran.r-project.org/bin/windows/base/) | [Mac](https://cran.r-project.org/bin/macosx/)
+    - Download the appropriate version: <a href='https://cran.r-project.org/bin/windows/base/' target='_blank'>Windows</a> | <a href='https://cran.r-project.org/bin/macosx/' target='_blank'>Mac</a>
     - Run the downloaded file: Windows (`.exe` file) | Mac (`.pkg` )
 
 2. Download & Install *R* Studio
