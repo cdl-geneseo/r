@@ -6,38 +6,14 @@ While *R* and its development environment, *R* Studio, are free to access and us
 
 In this workshop, you'll learn about
 
-1. [Importing data (CSV, XLSX)](sections/01-importing-data.md)
-2. [Validating data structure](sections/02-validating-data.md)
-3. Renaming & recoding variables
-4. Merging, filtering & aggregating data
-5. Visualization techniques
+1. [Getting Started](sections/01-software-setup.md)
+2. [Importing data (CSV, XLSX)](sections/02-importing-data.md)
+3. [Validating data structure](sections/03-validating-data.md)
+4. Renaming & recoding variables
+5. Merging, filtering & aggregating data
+6. Visualization techniques
 
 In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/cdl/faculty-affiliates) Matt Pastizzo and other [attributed contributors](#acknowledgements), this workshop at SUNY Geneseo incorporates [content](https://github.com/DHRI-Curriculum/r) shared openly by the [Digital Humanities Research Institute](https://www.dhinstitutes.org/) at the CUNY Graduate Center. A few modifications have been made to tailor the content to our Geneseo community.
-
-<hr>
-
-## Setting ourselves up
-
-To prepare for the workshop, we recommend installing both *R* and *R* Studio.
-
-[Step-by-step video](video1)
-
-**Hint**: Use CMD+click (Mac) or CTRL+click (Windows) to open external links in another tab
-
-1. Download & Install *R* (base package)
-    - Download the appropriate version: [Mac](https://cran.r-project.org/bin/macosx/) | [Windows](https://cran.r-project.org/bin/windows/base/)
-    - Run the downloaded file: Mac (`.pkg` ) | Windows (`.exe` file)
-
-2. Download & Install *R* Studio
-    - [Mac/Windows](https://rstudio.com/products/rstudio/download/#download)
-
-3. Install necessary packages ([Step-by-step video](video2))
-
-```r
-install.packages('plyr')
-```
-
-4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
 
 <hr>
 
