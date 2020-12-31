@@ -1,8 +1,8 @@
 ![Getting started with R image](./images/Rheader.png)
 
-In the past decade or so, we've been hearing more and more about data, everywhere from our academic and professional lives to our personal lives. Data is an unavoidable and inescapable aspect of our lives, especially as those lives unfold, increasingly, online. These considerations may feel overwhelming on the surface, but, rather than fear or fight data itself, we can be empowered through the use of powerful, open source tools created to help us get a handle on the data we inevitably collect in order to use it in meaningful and equitable ways. R is one of these tools; it is a powerful programming language and environment in which users can arrange and analyze data through statistical computing. 
+In the past decade or so, we've been hearing more and more about data, everywhere from our academic and professional lives to our personal lives. Data is an unavoidable and inescapable aspect of our lives, especially as those lives unfold, increasingly, online. These considerations may feel overwhelming on the surface, but, rather than fear or fight data itself, we can be empowered through the use of powerful, open source tools created to help us get a handle on the data we inevitably collect in order to use it in meaningful and equitable ways. *R* is one of these tools; it is a powerful programming language and environment in which users can arrange and analyze data through statistical computing. 
 
-While R and its development environment, RStudio, are free to access and use, there's a not insignificant learning curve to overcome in order to understand and use it efficiently for your own work and research. Forunately, that's what Geneseo's [Center for Digital Learning](https://www.geneseo.edu/cdl) is here for!
+While *R* and its development environment, *R* Studio, are free to access and use, there's a not insignificant learning curve to overcome in order to understand and use it efficiently for your own work and research. Forunately, that's what Geneseo's [Center for Digital Learning](https://www.geneseo.edu/cdl) is here for!
 
 In this workshop, you'll learn about
 
@@ -18,15 +18,15 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 
 ## Setting ourselves up
 
-To prepare for the workshop, we recommend installing both R and R Studio.
+To prepare for the workshop, we recommend installing both *R* and *R* Studio.
 
 [Step-by-step video](video1)
 
-1. Download & Install R (base package)
-    - Download: [Windows](https://cran.r-project.org/bin/windows/base/) | [Mac](https://cran.r-project.org/bin/macosx/)
-    - Run: Windows (`.exe` file) | Mac (`.pkg` )
+1. Download & Install *R* (base package)
+    - Download the appropriate version: [Windows](https://cran.r-project.org/bin/windows/base/) | [Mac](https://cran.r-project.org/bin/macosx/)
+    - Run the downloaded file: Windows (`.exe` file) | Mac (`.pkg` )
 
-2. Download & Install R Studio
+2. Download & Install *R* Studio
     - [Windows/Mac](https://rstudio.com/products/rstudio/download/#download)
 
 3. Install necessary packages ([Step-by-step video](video2))
