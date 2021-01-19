@@ -1,4 +1,4 @@
-↻ [Start/README](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Importing Data](02-importing-data.md) →
+↻ [Start/README](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Functions & Operators](02-functions-operators.md) →
 ---
 
 # 1. Getting Started
@@ -26,7 +26,3 @@ install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2", "ggwordcl
 ```
 
 4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
-
-## Functions
-
-*R* is all about the functions. 
