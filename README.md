@@ -14,11 +14,12 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 ## Lessons
 
 1. [Getting started: Software setup](sections/01-software-setup.md)
-2. [Importing data (CSV, XLSX)](sections/02-importing-data.md)
-3. [Validating data structure](sections/03-validating-data.md)
-4. Renaming & recoding variables
-5. Merging, filtering & aggregating data
-6. Visualization techniques
+2. [Functions & Operators](sections/02-functions-operators.md)
+3. [Importing data (CSV, XLSX)](sections/03-importing-data.md)
+4. [Validating data structure](sections/04-validating-data.md)
+5. Renaming & recoding variables
+6. Merging, filtering & aggregating data
+7. Visualization techniques
 
 ## Acknowledgements
 
