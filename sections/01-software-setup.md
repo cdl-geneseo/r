@@ -3,7 +3,7 @@
 
 # 1. Getting Started
 
-## Setting ourselves up
+## Install *R* and *RStudio*
 
 To prepare for the workshop, we recommend installing both *R* and *R* Studio ([Step-by-step video](video1)). You will also need to install several packages. A package is a collection of [functions](#functions) written by various contributors that extend the base functionality.
 
@@ -13,11 +13,11 @@ To prepare for the workshop, we recommend installing both *R* and *R* Studio ([S
     - Download the appropriate version: [Mac](https://cran.r-project.org/bin/macosx/) | [Windows](https://cran.r-project.org/bin/windows/base/)
     - Run the downloaded file: Mac (`.pkg` ) | Windows (`.exe` file)
 
-2. Download & Install *R* Studio
+2. Download & Install *RStudio*
     - [Mac/Windows](https://rstudio.com/products/rstudio/download/#download)
 
 3. Install necessary packages ([Step-by-step video](video2))
-    - Open *R* Studio
+    - Open *RStudio*
     - Locate the Console
     - At the command prompt (>), type (**case-sensitive**):
 
@@ -26,3 +26,24 @@ install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2", "ggwordcl
 ```
 
 4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
+
+## Launch & Customize (optional) *R* Studio
+
+*RStudio* provides a powerful graphical user interface for using R. Please note that *R* must be installed for *RStudio* to work. In essence, *RStudio* is a shell that greatly facilitates working with *R*. For example, *RStudio* keeps data, scripts, and plots all organized in one environment making it easy to switch quickly between various elements.
+
+When you open *RStudio* there will be one large window with 4 sections or window panes. The pane locations can be customized and each pane can include multiple tabs. Although the default settings work well, feel free to modify the pane layout using the following menu sequence:
+
+ - Mac: RStudio > Preferences > Pane Layout
+ - Windows: Tools > Options > Pane Layout
+
+> Read more: [Customizing RStudio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio)
+
+## Console Basics
+
+When *RStudio* first launches, the Console contains information about the version of *R* installed. It also contains the command prompt (>) with a cursor next to the prompt.
+
+The Console is where all code (i.e., commands) is executed/implemented/run. Note that code can be typed directly into the Console, or in a separate script (i.e., a text file with a list of commands). To run code typed in a separate script (i.e., text file), code is first sent to the Console (line-by-line or all at once).
+
+ - Clear the console: CTRL + L
+ - Browse previous commands: up/down arrows
+ - Case-senstive: mean(x) is different from MEAN(x)
