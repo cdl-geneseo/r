@@ -5,7 +5,9 @@
 
 ## Install *R* and *RStudio*
 
-To prepare for the workshop, we recommend installing both *R* and *R* Studio. You will also need to install packages that contain functions to be used throughout the workshop. ([Step-by-step video](video1)). You will also need to install several packages. A package is a collection of [functions](#functions) written by various contributors that extend the base functionality.
+To prepare for the workshop, we recommend installing both *R* and *R* Studio. You will also need to install several packages. A package is a collection of [functions](#functions) written by various contributors that extend the base functionality.
+
+[Step-by-step video](video1)
 
 > **Hint**: Use CMD+click (Mac) or CTRL+click (Windows) to open external links in another tab
 
