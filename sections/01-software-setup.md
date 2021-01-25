@@ -22,7 +22,7 @@ To prepare for the workshop, we recommend installing both *R* and *R* Studio ([S
     - At the command prompt (>), type (**case-sensitive**):
 
 ```r
-install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2", "ggwordcloud"))
+install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2"))
 ```
 
 4. Download [CSV](file1) and [XLSX](file2) files to use during workshop
@@ -51,8 +51,12 @@ The Console is where all code is executed/implemented/run. Note that code can be
 
 ## Testing the Console
 
-To confirm that the Console is working, try:
+To confirm that the Console is working, try the following (pressing Enter/Return to run the code):
 
 ```r
 2 + 2
 ```
+
+## Debugging
+
+As a general principle, when using *R*, "no news is good news." That can be a little unsettling at first.
