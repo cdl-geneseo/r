@@ -2,7 +2,7 @@
 
 In the past decade or so, we've been hearing more and more about data, everywhere from our academic and professional lives to our personal lives. Data is an unavoidable and inescapable aspect of our lives, especially as those lives unfold, increasingly, online. These considerations may feel overwhelming on the surface, but, rather than fear or fight data itself, we can be empowered through the use of powerful, open source tools created to help us get a handle on the data we inevitably collect in order to use it in meaningful and equitable ways. *R* is one of these tools; it is a powerful programming language and environment in which users can arrange and analyze data through statistical computing. 
 
-While *R* and its development environment, *R* Studio, are free to access and use, there's a not insignificant learning curve to overcome in order to understand and use it efficiently for your own work and research. Forunately, that's what Geneseo's [Center for Digital Learning](https://www.geneseo.edu/cdl) is here for!
+While *R* and its development environment, *RStudio*, are free to access and use, there's a not insignificant learning curve to overcome in order to understand and use it efficiently for your own work and research. Forunately, that's what Geneseo's [Center for Digital Learning](https://www.geneseo.edu/cdl) is here for!
 
 In this workshop, you'll learn about we will interactively use the command-line within the R console to navigate through the typical workflow of importing and preparing data to summarizing and visualizing data. Along the way, we'll experiment with validation, merging, recoding, and aggregation techniques.
 
