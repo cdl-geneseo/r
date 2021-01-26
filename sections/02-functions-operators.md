@@ -14,28 +14,29 @@ mean(x)
 
 A function performs an operation or a set of operations to accomplish a task. For example, the mean(x) function is used to sum the values of variable *x* and divide the sum by the number of *x* values. *R* comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
 
-It is also possible to define your own functions. The following is an example of a custom function that computes and reports the mean.
+It is also possible to define your own functions. The following is an example of creating and storing a custom function that computes and reports the mean. Notice that the function itself is constructed from other functions.
 
 ```r
 x = c(3,5,4,3,6,4,5,7)
+
 myMean = function(x){
     val=sum(x)/length(x)
     cat("Mean:",val)
 }
+
 myMean(x) # using the function
 ```
 
 To use functions in *R*, it helps to know how they are structured. The anatomy of a function is as follows:
 
+- Function name: case-sensitive, appears before a set of parentheses.
+- Arguments/parameters: input used by the function to perform its work. Arguments/parameters are comma-delimited, and need to be stated in a specific order or referenced by name.
 
-> Function name: case-sensitive, appears before a set of parentheses.
-> Arguments/parameters: input used by the function to perform its work. Arguments/parameters are comma-delimited, and need to be stated in a specific order or referenced by name.
+It is typical that a function will take a number of parameters (some required, many optional) that are listed in a default order. Hint: Type a function name such as **barplot()** at the command prompt, position your cursory within the parentheses (if not already positioned there), and then press the TAB key. A list of arguments should appear. Or, you could type **?barplot** to view the help page, which begins with a list of arguments as well as a brief explanation of each argument. As you will see within the help page for **barplot()**, many of the arguments have default values.
 
-It is typical that a function will take a number of parameters (some required, many optional) that are listed in a default order. Hint: Type a function name such as \texttt{barplot()} at the command prompt, position your cursory within the parentheses (if not already positioned there), and then press the TAB key (n.b., the TAB trick only works if you install \textsl{R} on your computer). A list of arguments should appear. Or, you could type \texttt{?barplot} to view the help page (pop-ups need to be enabled in your browser), which begins with a list of arguments as well as a brief explanation of each argument. As you will see within the help page for \texttt{barplot()}, many of the arguments have default values.
+When you use a function with multiple arguments, it is a good practice to employ the `argument = ' convention. For example, although you can use **barplot(x)**, because the 1st expected argument defines the height of the bars, it is safer to use **barplot(height=x)**. With the latter approach, the order of the arguments is irrelevant; however, with the former approach, the argument order must strictly match that defined on the function help page.
 
-When you use a function with multiple arguments, it is a good practice to employ the \textsl{`argument = '} convention. For example, although you can use \texttt{barplot($x$)}, because the 1st expected argument defines the height of the bars, it is safer to use \texttt{barplot(height=$x$)}. With the latter approach, the order of the arguments is irrelevant; however, with the former approach, the argument order must strictly match that defined on the function help page.
-
-In general, \textsl{R} is blind to space, which means that \texttt{mean (x)} produces the same output as \texttt{mean(x)}; however, \textsl{R} is \textsf{case-sensitive} (e.g., \texttt{Mean(x)} will produce an error: `could not find function ``Mean''').
+In general, *R* is blind to space, which means that **mean (x)** produces the same output as **mean(x)**; however, *R* is case-sensitive (e.g., **Mean(x)** will produce an error: `could not find function ``Mean''').
 
 
 
