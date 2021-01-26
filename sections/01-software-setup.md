@@ -48,6 +48,8 @@ When *RStudio* first launches, the Console contains information about the versio
 
 The Console is where all code is executed/implemented/run. Note that code can be typed directly into the Console, or in a separate script (i.e., a text file with a list of commands). To run code typed in a separate script (i.e., text file), code is first sent to the Console (line-by-line or all-at-once).
 
+### A few console tricks:
+
  - Clear the console: CTRL + L
  - Browse previous commands: up/down arrows
  - Case-sensitive: mean(x) is different from MEAN(x)
