@@ -31,7 +31,7 @@ install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2"))
 
 > During the workshop we will also experiment with importing directly from the URLs.
 
-## Launch & Customize (optional) *R* Studio
+## Launch & Customize *R* Studio (optional)
 
 *RStudio* provides a powerful graphical user interface for using R. Please note that *R* must be installed for *RStudio* to work. In essence, *RStudio* is a shell that greatly facilitates working with *R*. For example, *RStudio* keeps data, scripts, and plots all organized in one environment making it easy to switch quickly between various elements.
 
@@ -61,13 +61,16 @@ As a general principle, when using *R*, "no news is good news." That can be a li
 x = c(3,2,5,4,3)
 ```
 
-In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*. I like to think of *R* as an interactive programming environment where I can ask questions about data using commands. In the following lessons, we will explore a number of functions that will help us to extract information, to restructure the data, and to visualize the data.
+In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*! I like to think of *R* as an interactive programming environment where I can ask questions about data using short commands. The trick is to learn those commands and how they work.
 
-To learn about variable *x*, we can do a few things: 1) we can simply enter the variable name and press Enter/Return, 2) we can check on its characteristics, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line):
+One time while searching the internet looking for some help on how to use a specific function in *R* I came across a webpage with the header: "I think, therefore I *R*." I enjoy the play on words, and more important the sentiment of thinking about data. Popular statistical software alternatives emphasize visual appearance in a stunning graphical user interface that provides extensive pre-definied functions in layers upon layers of menus and pop-up windows. While it is a natural instinct to look at data in a neat spreadsheet format and it is convenient to have pre-defined analyses and graphs, a great deal of understanding comes from the actual process of exploring data, from recurrently asking questions and receiving immediate feedback at a command prompt. The analysis becomes a process more than a result. In *R* we can quickly and easily generate statisics, creating visualizations and interact with the data in a flexible and dynamic way. In the following lessons, we will explore a number of functions that will help us to achieve those goals.
+
+As a quick example, to learn about variable *x* created in the code above, we can do a few things: 1) we can simply enter the variable name to look at the data, 2) we can check on its characteristics, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line) to see what happens:
 
 ```r
 x = c(3,2,5,4,3)
 x
+View(x)
 str(x)
 length(x)
 mean(x)
