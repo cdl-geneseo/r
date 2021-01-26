@@ -3,7 +3,52 @@
 
 # 2. Functions & Operators
 
-It's all about the functions.
+## Functions
+
+The functions in *R* are analagous to those available within spreadsheet programs such as Excel. To use a function, one or more arguments/parameters need to be specified. For example, in Excel, you can compute the average of the values contained in the first 10 rows of column A (viz., A1:10) by entering the average function in some other cell (e.g., B1): =average(A1:A10) (n.b., functions in Excel always begin with =). Given the same 10 values (e.g., 3,4,5,4,5,6,7,8,9,7) stored in variable *x*, mean(x) returns the average in *R*.
+
+```r
+x = c(3,4,5,4,5,6,7,8,9,7)
+mean(x)
+[1] 5.8
+```
+
+A function performs an operation or a set of operations to accomplish a task. For example, the \texttt{mean($x$)} function is used to sum the values of variable $x$ and divide the sum by the number of $x$ values. \textsl{R} comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
+
+It is also possible to define your own functions. The following is a function that computes the sum of the squared deviations from the mean (a.k.a., \textsl{sum of squares, SS}), which will be introduced in Chapter 4.
+
+\vspace{5 mm}
+\begin{lstlisting}
+x = c(3,5,4,3,6,4,5,7)
+SS = function(x){
+    val=sum((x-mean(x))^2)
+    return(val)
+}
+SS(x) # using the function
+[1] 13.875
+\end{lstlisting}
+\vspace{5 mm}
+
+To use functions in \textsl{R}, it helps to know how they are structured. The anatomy of a function is as follows:
+
+\vspace{5 mm}
+\begin{tcolorbox}[sharp corners = uphill]
+\begin{description}
+\item[Function name] case-sensitive, appears before a set of parentheses.
+\item[Arguments/parameters] input used by the function to perform its work. Arguments/parameters are comma-delimited, and need to be stated in a specific order or referenced by name.
+\end{description}
+\end{tcolorbox}
+\vspace{5 mm}
+
+It is typical that a function will take a number of parameters (some required, many optional) that are listed in a default order. Hint: Type a function name such as \texttt{barplot()} at the command prompt, position your cursory within the parentheses (if not already positioned there), and then press the TAB key (n.b., the TAB trick only works if you install \textsl{R} on your computer). A list of arguments should appear. Or, you could type \texttt{?barplot} to view the help page (pop-ups need to be enabled in your browser), which begins with a list of arguments as well as a brief explanation of each argument. As you will see within the help page for \texttt{barplot()}, many of the arguments have default values.
+
+When you use a function with multiple arguments, it is a good practice to employ the \textsl{`argument = '} convention. For example, although you can use \texttt{barplot($x$)}, because the 1st expected argument defines the height of the bars, it is safer to use \texttt{barplot(height=$x$)}. With the latter approach, the order of the arguments is irrelevant; however, with the former approach, the argument order must strictly match that defined on the function help page.
+
+In general, \textsl{R} is blind to space, which means that \texttt{mean (x)} produces the same output as \texttt{mean(x)}; however, \textsl{R} is \textsf{case-sensitive} (e.g., \texttt{Mean(x)} will produce an error: `could not find function ``Mean''').
+
+
+
+## Mathematical & Logical Operators
 
 | Operation | Symbol/Function | Example | Result |
 | --- | --- | --- | --- |
