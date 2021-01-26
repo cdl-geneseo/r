@@ -61,9 +61,7 @@ As a general principle, when using *R*, "no news is good news." That can be a li
 x = c(3,2,5,4,3)
 ```
 
-In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*! I like to think of *R* as an interactive programming environment where I can ask questions about data using short commands. The trick is to learn those commands and how they work.
-
-One time while searching the internet looking for some help on how to use a specific function in *R* I came across a webpage with the header: "I think, therefore I *R*." I enjoy the play on words, and more important the sentiment of thinking about data. Popular statistical software alternatives emphasize visual appearance in a stunning graphical user interface that provides extensive pre-definied functions in layers upon layers of menus and pop-up windows. While it is a natural instinct to look at data in a neat spreadsheet format and it is convenient to have pre-defined analyses and graphs, a great deal of understanding comes from the actual process of exploring data, from recurrently asking questions and receiving immediate feedback at a command prompt. The analysis becomes a process more than a result. In *R* we can quickly and easily generate statisics, creating visualizations and interact with the data in a flexible and dynamic way. In the following lessons, we will explore a number of functions that will help us to achieve those goals.
+In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*! I like to think of *R* as an interactive programming environment where we can ask questions about data using short commands. The trick is to learn those commands and how they work!
 
 As a quick example, to learn about variable *x* created in the code above, we can do a few things: 1) we can simply enter the variable name to look at the data, 2) we can check on its characteristics, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line) to see what happens:
 
@@ -75,3 +73,9 @@ str(x)
 length(x)
 mean(x)
 ```
+
+## Why *R*?
+
+One time while searching the internet looking for some help on how to use a specific function in *R*, I came across a webpage with the header: "I think, therefore I *R*." I enjoy the play on words, and more important the sentiment of *thinking* about data. Popular statistical software alternatives tend to emphasize visual appearance. Although such programs provide an attractive graphical user interface with an impressive assortment of pre-definied functions, navigation often involves traversing layer upon layer of menus and pop-up windows.
+
+While it is a natural instinct to look at data in a neat spreadsheet format and it is convenient to have pre-defined analyses and graphs, a great deal of understanding comes from the actual process of exploring data, from recurrently asking questions and receiving immediate feedback within a single environment. In this way, the process is just as (and in some cases, perhaps more) important than a result. In *R* we can quickly and easily generate statisics, creating visualizations and interact with the data in a flexible and dynamic way. In the following lessons, we will explore a number of functions that will help us to achieve those goals. Beyond these lessons, I encourage you to search for functions that are designed to produce the designed results. Along the way you will inevitably learn more about the underlying logic and ways in which functions can be customized to suit your analysis needs.
