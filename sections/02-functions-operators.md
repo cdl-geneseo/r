@@ -10,35 +10,26 @@ The functions in *R* are analagous to those available within spreadsheet program
 ```r
 x = c(3,4,5,4,5,6,7,8,9,7)
 mean(x)
-[1] 5.8
 ```
 
-A function performs an operation or a set of operations to accomplish a task. For example, the \texttt{mean($x$)} function is used to sum the values of variable $x$ and divide the sum by the number of $x$ values. \textsl{R} comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
+A function performs an operation or a set of operations to accomplish a task. For example, the mean(x) function is used to sum the values of variable *x* and divide the sum by the number of *x* values. *R* comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
 
-It is also possible to define your own functions. The following is a function that computes the sum of the squared deviations from the mean (a.k.a., \textsl{sum of squares, SS}), which will be introduced in Chapter 4.
+It is also possible to define your own functions. The following is an example of a custom function that computes and reports the mean.
 
-\vspace{5 mm}
-\begin{lstlisting}
+```r
 x = c(3,5,4,3,6,4,5,7)
-SS = function(x){
-    val=sum((x-mean(x))^2)
-    return(val)
+myMean = function(x){
+    val=sum(x)/length(x)
+    cat("Mean:",val)
 }
-SS(x) # using the function
-[1] 13.875
-\end{lstlisting}
-\vspace{5 mm}
+myMean(x) # using the function
+```
 
-To use functions in \textsl{R}, it helps to know how they are structured. The anatomy of a function is as follows:
+To use functions in *R*, it helps to know how they are structured. The anatomy of a function is as follows:
 
-\vspace{5 mm}
-\begin{tcolorbox}[sharp corners = uphill]
-\begin{description}
-\item[Function name] case-sensitive, appears before a set of parentheses.
-\item[Arguments/parameters] input used by the function to perform its work. Arguments/parameters are comma-delimited, and need to be stated in a specific order or referenced by name.
-\end{description}
-\end{tcolorbox}
-\vspace{5 mm}
+
+> Function name: case-sensitive, appears before a set of parentheses.
+> Arguments/parameters: input used by the function to perform its work. Arguments/parameters are comma-delimited, and need to be stated in a specific order or referenced by name.
 
 It is typical that a function will take a number of parameters (some required, many optional) that are listed in a default order. Hint: Type a function name such as \texttt{barplot()} at the command prompt, position your cursory within the parentheses (if not already positioned there), and then press the TAB key (n.b., the TAB trick only works if you install \textsl{R} on your computer). A list of arguments should appear. Or, you could type \texttt{?barplot} to view the help page (pop-ups need to be enabled in your browser), which begins with a list of arguments as well as a brief explanation of each argument. As you will see within the help page for \texttt{barplot()}, many of the arguments have default values.
 
