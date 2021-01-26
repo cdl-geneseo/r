@@ -24,4 +24,5 @@ When specifying variable names within the **read.csv()** function, be sure to us
 
 Finally, it is useful to store the imported data in *R* by introducing a name for the data (e.g., **mydata**, **d**) and setting it equal to the results of the **read.csv()** function.
 
-Let's practice!
+## Let's practice!
+
