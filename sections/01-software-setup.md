@@ -53,14 +53,22 @@ The Console is where all code is executed/implemented/run. Note that code can be
  - Case-sensitive: mean(x) is different from MEAN(x)
  - Extra space ignored: mean ( x ) is functionally equivalent to mean(x)
 
-## Testing the Console
+## Testing Out the Console & Debugging
 
-To confirm that the Console is working, try the following (pressing Enter/Return to run the code):
+As a general principle, when using *R*, "no news is good news." That can be a little unsettling at first. Consider the following code:
 
 ```r
-2 + 2
+x = c(3,2,5,4,3)
 ```
 
-## Debugging
+In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*. I like to think of *R* as an interactive programming environment where I can ask questions about data using commands. In the following lessons, we will explore a number of functions that will help us to extract information, to restructure the data, and to visualize the data.
 
-As a general principle, when using *R*, "no news is good news." That can be a little unsettling at first.
+To learn about variable *x*, we can do a few things: 1) we can simply enter the variable name and press Enter/Return, 2) we can check on its characteristics, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line):
+
+```r
+x = c(3,2,5,4,3)
+x
+str(x)
+length(x)
+mean(x)
+```
