@@ -43,6 +43,8 @@ In general, *R* is blind to space, which means that **mean (x)** produces the sa
 
 ## Mathematical & Logical Operators
 
+To familiarize yourself with the mathematical and logical operators, try each of the examples in the table below at the command prompt **>** in the Console.
+
 | Operation | Symbol/Function | Example | Result |
 | --- | --- | --- | --- |
 | Addition | + | 2 + 2 | 4 |
