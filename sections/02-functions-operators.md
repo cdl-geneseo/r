@@ -5,13 +5,11 @@
 
 It's all about the functions.
 
-\begin{table}
-\begin{center}
-\begin{tabular}{lclc}
-\toprule
-Operation & Symbol/Function & Example & Result\\
-\midrule
-Addition & + & \texttt{> 2 + 2} & 4\\
+| Operation | Symbol/Function | Example | Result |
+| --- | --- | --- | --- |
+| Addition | + | 2 + 2 | 4 |
+
+
 Subtraction & - & \texttt{> 20 - 5} & 15\\
 Multiplication & * & \texttt{> 12 * 12} & 144\\
 Division & / & \texttt{> 86 / 2} & 43\\
