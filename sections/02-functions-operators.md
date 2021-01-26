@@ -5,7 +5,7 @@
 
 ## Functions
 
-The functions in *R* are analagous to those available within spreadsheet programs such as Excel. To use a function, one or more arguments/parameters need to be specified. For example, in Excel, you can compute the average of the values contained in the first 10 rows of column A (viz., A1:10) by entering the average function in some other cell (e.g., B1): =average(A1:A10) (n.b., functions in Excel always begin with =). Given the same 10 values (e.g., 3,4,5,4,5,6,7,8,9,7) stored in variable *x*, mean(x) returns the average in *R*.
+The functions in *R* are analagous to those available within spreadsheet programs such as Excel. To use a function, one or more arguments/parameters need to be specified. For example, in Excel, you can compute the average of the values contained in the first 10 rows of column A (viz., A1:10) by entering the average function in some other cell (e.g., B1): =average(A1:A10) (n.b., functions in Excel always begin with =). Given the same 10 values (e.g., 3,4,5,4,5,6,7,8,9,7) stored in variable *x*, **mean(x)** returns the average in *R*.
 
 ```r
 x = c(3,4,5,4,5,6,7,8,9,7)
@@ -36,8 +36,7 @@ It is typical that a function will take a number of parameters (some required, m
 
 When you use a function with multiple arguments, it is a good practice to employ the `argument = ' convention. For example, although you can use **barplot(x)**, because the 1st expected argument defines the height of the bars, it is safer to use **barplot(height=x)**. With the latter approach, the order of the arguments is irrelevant; however, with the former approach, the argument order must strictly match that defined on the function help page.
 
-In general, *R* is blind to space, which means that **mean (x)** produces the same output as **mean(x)**; however, *R* is case-sensitive (e.g., **Mean(x)** will produce an error: `could not find function ``Mean''').
-
+In general, *R* is blind to space, which means that **mean (x)** produces the same output as **mean(x)**; however, *R* is case-sensitive (e.g., **Mean(x)** will produce an error: Error in Mean(x) : could not find function "Mean"
 
 
 ## Mathematical & Logical Operators
