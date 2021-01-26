@@ -65,7 +65,7 @@ x = c(3,2,5,4,3)
 
 In the code above, the c() function creates a list of values and we store those values in a variable called *x*. After typing the code and pressing Enter/Return, we are simply met with a blinking cursor. No response from *R*. This is a great example of "silent success." How do we know it worked? We can check, and that is very much the spirit of using *R*! I like to think of *R* as an interactive programming environment where we can ask questions about data using short commands. The trick is to learn those commands and how they work!
 
-As a quick example, to learn about variable *x* created in the code above, we can do a few things: 1) we can simply enter the variable name to look at the data, 2) we can check on its characteristics, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line) to see what happens:
+As a quick example, to learn about variable *x* created in the code above, we can do a few things: 1) we can simply enter the variable name or use the View() function to look at the data, 2) we can check on its attributes, or 3) we can use variable *x* within another function. In the command console, try the code below (pressing Return/Enter at the end of each line) to see what happens:
 
 ```r
 x = c(3,2,5,4,3)
