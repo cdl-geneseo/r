@@ -46,20 +46,20 @@ In general, *R* is blind to space, which means that **mean (x)** produces the sa
 | Operation | Symbol/Function | Example | Result |
 | --- | --- | --- | --- |
 | Addition | + | 2 + 2 | 4 |
-| Subtraction | - | 20 - 5} | 15 |
-| Multiplication | * | 12 * 12} & 144 |
-| Division | / | 86 / 2} & 43 |
-| Power | ^ | 4^4} | 256 |
-| Greater than | \textgreater | > 3 > 2} | TRUE |
-| Greater or equal | \textgreater= |  3 >= 4} | FALSE |
-| Less than | \textless |  4 < 1} | FALSE |
-| Less or equal | \textless= |  3 <= 3} | TRUE |
-| Square Root | sqrt() |  sqrt(4)} | 2 |
-| Factorial | factorial() |  factorial(4)} | 24 |
-| Logarithm | log() |  log(732)} | 6.595781 |
-| Exponential | exp() |  exp(6.595781)} | 732.0004 |
-| Order of Operations | () |  20 - 2 * 3 | 14 |
-| --- | --- | (20 - 2) * 3} | 54 |
-Equal to? | == |  4 == 4} | TRUE |
-Assignment | = |  x = 4} | no result |
- | \textless- |  x <- 4} | no result |
+| Subtraction | - | 20 - 5 | 15 |
+| Multiplication | * | 12 * 12 | 144 |
+| Division | / | 86 / 2 | 43 |
+| Power | ^ | 4^4 | 256 |
+| Greater than | > | > 3 > 2 | TRUE |
+| Greater or equal | >= |  3 >= 4 | FALSE |
+| Less than | <> |  4 < 1 | FALSE |
+| Less or equal | <= |  3 <= 3 | TRUE |
+| Square Root | sqrt() |  sqrt(4) | 2 |
+| Factorial | factorial() |  factorial(4) | 24 |
+| Logarithm | log() |  log(732) | 6.595781 |
+| Exponential | exp() |  exp(6.595781) | 732.0004 |
+| Order of Operations | |  20 - 2 * 3 | 14 |
+|  | () | (20 - 2) * 3} | 54 |
+Equal to? | == |  4 == 4 | TRUE |
+Assignment | = |  x = 4 | no result |
+ | <- |  x <- 4} | no result |
