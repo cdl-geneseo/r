@@ -27,7 +27,7 @@ To prepare for the workshop, we recommend installing both *R* and *R* Studio. Yo
 install.packages(c("plyr", "reshape2", "openxlsx", "clipr", "ggplot2"))
 ```
 
-4. Download [CSV](https://github.com/cdl-geneseo/r/blob/main/data_files/phrases.csv) and [XLSX](https://github.com/cdl-geneseo/r/blob/main/data_files/negations.xlsx) files to use during workshop
+4. Download [CSV](https://raw.githubusercontent.com/cdl-geneseo/r/main/data_files/phrases.csv) and [XLSX](https://github.com/cdl-geneseo/r/blob/main/data_files/negations.xlsx) files to use during workshop
 
 > During the workshop we will also experiment with importing directly from the URLs.
 
