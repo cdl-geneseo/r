@@ -1,4 +1,4 @@
-↻ [Start](../README.md#lessons)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [2. Functions & Operators](02-functions-operators.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[4. Validating Data](04-validating-data.md) →
+↻ [Lessons](../README.md#lessons)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [2. Functions & Operators](02-functions-operators.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[4. Validating Data](04-validating-data.md) →
 
 # 3. Importing Data
 
