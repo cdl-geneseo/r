@@ -57,7 +57,7 @@ dim(phrases) # check dimensions: 4061 rows and 4 columns
 head(phrases) # view top 6 rows
 View(phrases) # spreadsheet view
 
-library(openxlsx) # only needed once per session
+library(openxlsx) # only needed once per session (includes the read.xlsx function)
 
 negations = read.xlsx('negations.xlsx') # or,
 negations = read.xlsx(file.choose()) # or,
