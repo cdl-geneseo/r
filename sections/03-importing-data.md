@@ -26,3 +26,43 @@ Finally, it is useful to store the imported data in *R* by introducing a name fo
 
 ## Let's practice!
 
+If you still need to do so, download [CSV]() and [XLSX]() files to use during workshop.
+
+The data for this workshop derive from the Michigan Corpus of Academic Spoken English (Simpson, Swales, & Briggs, 2002) and frequency counts are reported in a subsequent paper (Pastizzo & Carbone, 2007). Given a recent interest in double-negatives (and negative framing in general), I selected a subset of spoken language from the corpus that included *not* and variants of *not* (e.g., *doesn't*). The *phrases.csv* file contains all of the two-word phrases that begin with a negation along with the frequencies of those phrases, and the *negations.xlsx* file contains the various negations and their frequency of occurrence within the 1.6 million word corpus.
+
+One file format is a CSV (comma-separated values) and the other is Excel (xlsx). I included two typical formats to provide an opportunity to import two different file formats.
+
+There are two methods to navigate to the downloaded files:
+
+1. Directory-based approach: set the working directory within *R* before importing data.
+2. File-chooser approach: choose the working directory with a file selection window.
+
+### Directory-based approach
+
+First, determine your current working directory (i.e., folder) with the **getwd()** function:
+
+```r
+getwd() # akin to pwd in a terminal
+```
+
+Next, set the current working directory to the folder that contains the downloaded files. I saved the files to the Desktop on my computer:
+
+```r
+setwd("/Users/pastizzo/Desktop/") # the path will vary by operating system
+dir() # provides a list of files, akin to ls in a terminal
+```
+
+Import data and save as a new data object:
+
+```r
+phrases = read.csv('phrases.csv',header=T)
+
+library(openxlsx)
+negations = 
+```
+
+## References
+
+ - Pastizzo, M.J., & Carbone, R.F. (2007). Spoken word frequency counts based on 1.6 million words in American English. *Behavior Research Methods, 39*, 1025-1028.
+
+- Simpson, R., Swales, J., & Briggs, S. (2002). The Michigan corpus of academic spoken English. Retrieved July, 2005, from www.lsa.umich .edu/eli/micase/index.htm.
