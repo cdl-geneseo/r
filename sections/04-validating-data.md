@@ -24,7 +24,7 @@ For convenience, I like to select shorter object names, which saves typing!
 
 ```r
 p = phrases # creates a new object called p, which is equivalent to phrases
-n = negations
+n = negations # ditto
 ```
 
 ### Check dimensions & structure
@@ -56,4 +56,16 @@ names(p) # get all variable names
 names(p)[1] # get the 1st variable name
 names(p)[1:2] # first two variable names
 names(p)[1:ncol(p)] # equivalent to names(p)
+```
+
+### Data preview
+
+If the dimensions and names check out, then I take a quick peak at the data. I use the **head()** function to examine the top few rows and the **tail()** function to view the last few rows. Truncated data (i.e., fewer rows than expected) can be spotted easily by viewing the bottom of the file, and **tail()** is much more efficient than scrolling down countless pages to get to the bottom of a spreadsheet!
+
+```r
+head(p) # by default, shows the top 6 rows
+head(p,10) # the second argument requests 10 rows
+
+tail(p) # by default, shows the bottom 6 rows
+tail(p,15) # show the bottom 15 rows
 ```
