@@ -1,5 +1,4 @@
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [Software Setup](01-software-setup.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Importing Data](03-importing-data.md) →
----
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [1. Software Setup](01-software-setup.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[3. Importing Data](03-importing-data.md) →
 
 # 2. Functions & Operators
 
