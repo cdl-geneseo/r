@@ -15,7 +15,7 @@ names(n)
 
 ## Renaming
 
-Notice that the first column in the phrases data frame (**p**) contains the same words as the first column in the negations data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
+Notice that the first column in the phrases data frame (**p**) contains the same words as the first column in the negation data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
 
 Our goals are to:
 
