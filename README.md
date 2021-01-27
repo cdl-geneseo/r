@@ -17,9 +17,9 @@ In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/
 2. [Functions & Operators](sections/02-functions-operators.md)
 3. [Importing data (CSV, XLSX)](sections/03-importing-data.md)
 4. [Validating data structure](sections/04-validating-data.md)
-5. Renaming & recoding variables
-6. Merging, filtering & aggregating data
-7. Visualization techniques
+5. [Renaming & recoding variables](sections/05-renaming-recoding-data.md)
+6. [Merging, filtering & aggregating data](sections/06-merging-filtering-aggregating-data.md)
+7. [Visualization techniques](sections/07-visualization-techniques.md)
 
 ## Why *R*?
 
