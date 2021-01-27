@@ -7,7 +7,7 @@ Okay, now we have imported the data. Did it work...correctly? Here's where it is
 1. How many observations do I expect there to be? (number of rows?)
 2. How many variables were there? (number of columns?)
 
-Although it is tempting to look at the *entire* data object (and we can certainly do so using the **View()** function), scrolling through large data sets is often impractical and of little value. Consider for example, working with a data set that include 20+ variables and 10s of thousands of rows. In these cases, I prefer to think about the anticipated dimensions (i.e., the number of rows and columns) and check by asking *R* about those dimensions. I also like to check the variable names, and the variable types. Finally, it is always nice to get a peak at the data, if only the top/bottom few rows.
+Although it is tempting to look at the *entire* data object (and we can certainly do so using the **View()** function), scrolling through large data frames is often impractical and of little value. Consider for example, working with a data frame that include 20+ variables and 10s of thousands of rows. In these cases, I prefer to think about the anticipated dimensions (i.e., the number of rows and columns) and check by asking *R* about those dimensions. I also like to check the variable names, and the variable types. Finally, it is always nice to get a peak at the data, if only the top/bottom few rows.
 
 > Helpful tip: *R* is typically structured to process/report rows first, then columns.
 
@@ -28,7 +28,7 @@ n = negations # ditto
 
 ### Check dimensions & structure
 
-Notice in the code below that there are multiple ways to obtain the same information. Based on my experience, that *flexibility* can be very helpful and, in my view, part of what makes *R* an amazing environment to explore data. For example, on some occasions, I only need to know how many rows - the **nrow()** function - are in the data set. At other times, I'd like to see the dimensions and the variable names at the same time - the **str()** function.
+Notice in the code below that there are multiple ways to obtain the same information. Based on my experience, that *flexibility* can be very helpful and, in my view, part of what makes *R* an amazing environment to explore data. For example, on some occasions, I only need to know how many rows - the **nrow()** function - are in the data frame. At other times, I'd like to see the dimensions and the variable names at the same time - the **str()** function.
 
 ```r
 dim(p) # dimensions: 4061 rows, 4 columns
