@@ -4,7 +4,7 @@
 
 It is often useful to rename variables either because the names are too lengthy, opaque, or will conflict with names in another data frame that you plan to merge. Sometimes I encounter a data file (CSV or Excel) with missing variable names, which means I have to specify **header=F** within the **read.csv()** function. In that event, the default variable names are the generic, V1, V2, V3, etc.
 
-Before proceeding, it is important that you have the data objects p and n created in the [previous lesson](04-validating-data.md).
+Before proceeding, it is important that you have the data objects **p** and **n** created in the [previous lesson](04-validating-data.md).
 
 It is interesting that the way to rename variables is closely related to the method of retrieving variable names. Try the following code:
 
@@ -15,7 +15,7 @@ names(n)
 
 ## Renaming
 
-Notice that the first column in the phrases data frame (**p**) contains the same words as the first column in the negations data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
+Notice that the first column in the phrases data frame (**p**) contains the same words as the first column in the negation data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
 
 Our goals are to:
 
