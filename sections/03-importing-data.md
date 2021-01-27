@@ -68,7 +68,9 @@ head(phrases) # view top 6 rows
 View(phrases) # spreadsheet view
 ```
 
-<img src="https://github.com/cdl-geneseo/r/blob/main/images/console.png" height="400">
+### Screenshot of R code
+
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/console.png" height="500">
 
 ## References
 
