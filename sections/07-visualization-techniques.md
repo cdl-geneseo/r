@@ -34,7 +34,17 @@ boxplot(d$c2_length~d$category,horizontal = T)
 ## Look at phrase frequency
 plot(sort(log(d$phrase_freq),decreasing = T),ylab='Log Phrase Frequency')
 
+```
 
+Note that the same basic plot() function will create different type of plots depending on the supplied data.
+
+```r
+## Scatterplot
+plot(log(d$phrase_freq),d$c2_length,ylab='Letter Length',xlab='Log Phrase Frequency')
+abline(lm(d$c2_length~log(d$phrase_freq))) # add a best-fit line using a linear model
+
+## Boxplot
+plot(d$c2_length~as.factor(d$c1)) # will create 28 separate boxplots!
 ```
 
 ### Additional resources
