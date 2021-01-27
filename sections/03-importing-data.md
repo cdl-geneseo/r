@@ -26,7 +26,7 @@ Finally, it is useful to store the imported data in *R* by introducing a name fo
 
 ## Let's practice!
 
-If you still need to do so, download [CSV]() and [XLSX]() files to use during workshop.
+If you still need to do so, download <a href="https://raw.githubusercontent.com/cdl-geneseo/r/main/data_files/phrases.csv">phrases.csv</a> and <a href="https://github.com/cdl-geneseo/r/raw/main/data_files/negations.xlsx">negations.xlsx</a> files to use during workshop
 
 The data for this workshop derive from the Michigan Corpus of Academic Spoken English (Simpson, Swales, & Briggs, 2002) and frequency counts are reported in a subsequent paper (Pastizzo & Carbone, 2007). Given a recent interest in double-negatives (and negative framing in general), I selected a subset of spoken language from the corpus that included *not* and variants of *not* (e.g., *doesn't*). The *phrases.csv* file contains all of the two-word phrases that begin with a negation along with the frequencies of those phrases, and the *negations.xlsx* file contains the various negations and their frequency of occurrence within the 1.6 million word corpus.
 
