@@ -11,7 +11,7 @@ The functions in *R* are analagous to those available within spreadsheet program
 
 ### Spreadsheet solution
 
-<img src="https://github.com/cdl-geneseo/r/blob/main/images/excel.png" height="200">
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/excel.png" height="250">
 
 ### *R* solution
 ```r
