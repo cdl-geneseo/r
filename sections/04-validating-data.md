@@ -29,7 +29,7 @@ n = negations # ditto
 
 ### Check dimensions & structure
 
-Notice that there are multiple ways to obtain the same information. Based on my experience, that *flexibility* can be very helpful and in my view part of what makes *R* an amazing environment to explore data. There are occasions when I only need to know how many rows - the **nrow()** functions - are in the data set. At other times, I'd like to see the dimensions and the variable names at the same time - the **str()** function.
+Notice in the code below that there are multiple ways to obtain the same information. Based on my experience, that *flexibility* can be very helpful and, in my view, part of what makes *R* an amazing environment to explore data. For example, on some occasions, I only need to know how many rows - the **nrow()** functions - are in the data set. At other times, I'd like to see the dimensions and the variable names at the same time - the **str()** function.
 
 ```r
 dim(p) # dimensions: 4061 rows, 4 columns
