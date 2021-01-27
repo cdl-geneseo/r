@@ -4,7 +4,7 @@ In the past decade or so, we've been hearing more and more about data, everywher
 
 While *R* and its development environment, *RStudio*, are free to access and use, there's a not insignificant learning curve to overcome in order to understand and use it efficiently for your own work and research. Forunately, that's what Geneseo's [Center for Digital Learning](https://www.geneseo.edu/cdl) is here for!
 
-In this workshop, you'll learn about we will interactively use the command-line within the R console to navigate through the typical workflow of importing and preparing data to summarizing and visualizing data. Along the way, we'll experiment with validation, merging, recoding, and aggregation techniques.
+In this workshop, we will interactively use the command-line within the R console to navigate through the typical workflow of importing and preparing data to summarizing and visualizing data. Along the way, we'll experiment with validation, merging, recoding, and aggregation techniques.
 
 
 In addition to content added by CDL [Faculty Affiliate](https://www.geneseo.edu/cdl/faculty-affiliates) Matt Pastizzo and other [attributed contributors](#acknowledgements), this workshop at SUNY Geneseo incorporates [content](https://github.com/DHRI-Curriculum/r) shared openly by the [Digital Humanities Research Institute](https://www.dhinstitutes.org/) at the CUNY Graduate Center. A few modifications have been made to tailor the content to our Geneseo community.
