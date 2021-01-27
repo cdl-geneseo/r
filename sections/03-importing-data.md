@@ -75,4 +75,4 @@ View(negations) # spreadsheet view
 
  - Pastizzo, M.J., & Carbone, R.F. (2007). Spoken word frequency counts based on 1.6 million words in American English. *Behavior Research Methods, 39*, 1025-1028.
 
-- Simpson, R., Swales, J., & Briggs, S. (2002). The Michigan corpus of academic spoken English. Retrieved July, 2005, from www.lsa.umich .edu/eli/micase/index.htm.
+- Simpson, R., Swales, J., & Briggs, S. (2002). The Michigan corpus of academic spoken English. Retrieved July, 2005, from [www.lsa.umich.edu/eli/micase/index.htm](http://www.lsa.umich.edu/eli/micase/index.htm).
