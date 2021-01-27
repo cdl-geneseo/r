@@ -15,8 +15,7 @@ In this lesson, we will only scratch the surface. *R* has extensive visualizatio
 
 ### Additional resources
 
-[Quick R](http://www.statmethods.net)
-[R Tutorial](http://www.r-tutor.com)
-[DataCamp](https://www.datacamp.com)
-[Cookbook for R](http://www.cookbook-r.com/Graphs)
-[stackoverflow](http://stackoverflow.com)
+- [Quick R](https://www.statmethods.net)
+- [R Tutorial](https://www.r-tutor.com)
+- [Cookbook for R](https://www.cookbook-r.com/Graphs)
+- [stackoverflow](http://stackoverflow.com)
