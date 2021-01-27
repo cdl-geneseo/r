@@ -37,10 +37,6 @@ There are two methods to navigate to the downloaded files:
 1. Directory-based approach: set the working directory within *R* before importing data.
 2. File-chooser approach: choose the working directory with a file selection window.
 
-### Directory-based approach
-
-First, determine your current working directory (i.e., folder) with the **getwd()** function:
-
 ```r
 getwd() # akin to pwd in a terminal
 ```
@@ -55,14 +51,19 @@ dir() # provides a list of files, akin to ls in a terminal
 Import data and save as a new data object:
 
 ```r
-phrases = read.csv('phrases.csv',header=T)
-dim(phrases) # 4061 rows and 4 columns
+phrases = read.csv('phrases.csv',header=T) # opens from current directory, or
+phrases = read.csv(file.choose(),header=T) # launches a file chooser
+
+dim(phrases) # check dimensions: 4061 rows and 4 columns
 head(phrases) # view top 6 rows
 View(phrases) # spreadsheet view
 
-library(openxlsx) # only needed once per session (may need to be installed, see [Software setup](01-software-setup.md))
-negations = read.xlsx('negations.xlsx')
-dim(negations) # 28 rows and 2 columns
+library(openxlsx) # only needed once per session
+
+negations = read.xlsx('negations.xlsx') # or,
+negations = read.xlsx(file.choose())
+
+dim(negations) # check dimensions: 28 rows and 2 columns
 head(phrases) # view top 6 rows
 View(phrases) # spreadsheet view
 ```
