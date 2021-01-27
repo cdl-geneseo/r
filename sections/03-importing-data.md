@@ -56,10 +56,18 @@ Import data and save as a new data object:
 
 ```r
 phrases = read.csv('phrases.csv',header=T)
+dim(phrases) # 4061 rows and 4 columns
+head(phrases) # view top 6 rows
+View(phrases) # spreadsheet view
 
-library(openxlsx)
-negations = 
+library(openxlsx) # only needed once per session (may need to be installed, see [Software setup](01-software-setup.md))
+negations = read.xlsx('negations.xlsx')
+dim(negations) # 28 rows and 2 columns
+head(phrases) # view top 6 rows
+View(phrases) # spreadsheet view
 ```
+
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/import.png" height="250">
 
 ## References
 
