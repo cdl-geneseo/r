@@ -37,13 +37,10 @@ There are two methods to navigate to the downloaded files:
 1. Directory-based approach: set the working directory within *R* before importing data.
 2. File-chooser approach: choose the working directory with a file selection window.
 
+If you choose the directory-based approach, first check the current working directory with **getwd()** and then set the working directed with **setwd()** to the location where the data files are located.
+
 ```r
 getwd() # akin to pwd in a terminal
-```
-
-Next, set the current working directory to the folder that contains the downloaded files. I saved the files to the Desktop on my computer:
-
-```r
 setwd("/Users/pastizzo/Desktop/") # the path will vary by operating system
 dir() # provides a list of files, akin to ls in a terminal
 ```
