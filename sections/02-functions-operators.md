@@ -9,12 +9,15 @@ It's all about the functions!
 
 The functions in *R* are analagous to those available within spreadsheet programs such as Excel. To use a function, one or more arguments/parameters need to be specified. For example, in Excel, you can compute the average of the values contained in the first 10 rows of column A (viz., A1:10) by entering the average function in some other cell (e.g., B1): =average(A1:A10) (n.b., functions in Excel always begin with =). Given the same 10 values (e.g., 3,4,5,4,5,6,7,8,9,7) stored in variable *x*, **mean(x)** returns the average in *R*.
 
+### Spreadsheet solution
+
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/excel.png" height="200">
+
+### *R* solution
 ```r
 x = c(3,4,5,4,5,6,7,8,9,7)
 mean(x)
 ```
-
-<img src="https://github.com/cdl-geneseo/r/blob/main/images/excel.png" height="200">
 
 A function performs an operation or a set of operations to accomplish a task. For example, the mean(x) function is used to sum the values of variable *x* and divide the sum by the number of *x* values. *R* comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
 
