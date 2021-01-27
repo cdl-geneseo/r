@@ -1,4 +1,4 @@
-↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[2. Functions & Operators](02-functions-operators.md) →
+↻ [Start](../README.md#lessons)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[2. Functions & Operators](02-functions-operators.md) →
 
 # 1. Getting Started
 
