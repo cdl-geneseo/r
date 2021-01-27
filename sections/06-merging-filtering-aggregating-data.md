@@ -4,7 +4,7 @@
 
 *R* is a great environment for organizing and restructuring data. I frequently encounter a situation where I have multiple datasets with different information that I would like to combine. The two (or more) data frames can be merged together as long as they share a key variable. In the previous lessons, we have been working with two data frames that each contain a variable that specifies the negation word (viz., *not* or a contraction). The phrases (**p**) data frame contains information about the phrase (e.g., *don't hesitate*) and the negation (**n**) data frame contains information about the frequency of the negation word. For further analysis, it would be helpful to combine these data into a single data frame.
 
-Before proceeding, it is important that you have the data objects p and n created in the [Validating Data lesson](04-validating-data.md) and that you have renamed variables as demonstrated in [Renaming & Recoding lesson](05-renaming-recoding-data.md).
+Before proceeding, it is important that you have the data objects **p** and **n** created in the [Validating Data lesson](04-validating-data.md) and that you have renamed variables as demonstrated in [Renaming & Recoding lesson](05-renaming-recoding-data.md).
 
 ### Merging
 

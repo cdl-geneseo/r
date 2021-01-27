@@ -13,9 +13,26 @@ The standard *plot()* function is included in the base *R* package and can be us
 
 In this lesson, we will only scratch the surface. *R* has extensive visualization capabilities, including the ability to create interative plots where the plot changes dynamically in response to user input.
 
+Before proceeding, it is important that you have the data objects **p** and **n** created in the [Validating Data lesson](04-validating-data.md), that you have renamed variables as demonstrated in [Renaming & Recoding lesson](05-renaming-recoding-data.md), and that you have a merged data frame called **d** created in the [Merging lesson](06-merging-filtering-aggregating-data.md).
+
+```r
+## Let's start by looking at the length of the second constituent (c2) in the phrases
+plot(d$c2_length)
+plot(sort(d$c2_length)) # a sorted version is more informative
+
+## Lengths are approximately normally distributed
+hist(d$c2_length) # frequency histogram
+
+plot(density(d$c2_length),main='Density Plot: c2 length',xlab='Letter Length') # similar to the histogram
+
+boxplot(d$c2_length) # look for outliers (beyond the whiskers), or
+boxplot(d$c2_length,horizontal = T)
+
+```
+
 ### Additional resources
 
 - [Quick R](https://www.statmethods.net)
-- [R Tutorial](https://www.r-tutor.com)
-- [Cookbook for R](https://www.cookbook-r.com/Graphs)
+- [R Tutor](http://www.r-tutor.com)
+- [Cookbook for R](http://www.cookbook-r.com/Graphs)
 - [stackoverflow](http://stackoverflow.com)
