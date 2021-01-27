@@ -9,7 +9,7 @@ When I discovered that *R* makes it simple to use powerful and incredibly flexib
 
 ### Plotting functions
 
-The standard *plot()* function is included in the base *R* package and can be used to make quick plots or can be refined to produce professional graphs that are publication ready. If **plot()** is awesome, then **ggplot2** is turbo-charged! Some regard the **ggplot2** package (and associated functions) as a graphing language, that has it's own syntax, and allows us to build visualizations in layers, which means that if we can imagine it, we can create it!
+The standard *plot()* function is included in the base *R* package and can be used to make quick plots or can be refined to produce professional graphs that are publication ready. If **plot()** is awesome, then **ggplot2** is turbo-charged! Some regard the **ggplot2** package (and associated functions) as a graphing language, that has it's own syntax, and allows us to build visualizations in layers, which means that if we can imagine it, we can create it! The [Cookbook for R](http://www.cookbook-r.com/Graphs) is a great place to get started.
 
 In this lesson, we will only scratch the surface. *R* has extensive visualization capabilities, including the ability to create interative plots where the plot changes dynamically in response to user input.
 
@@ -27,6 +27,13 @@ plot(density(d$c2_length),main='Density Plot: c2 length',xlab='Letter Length') #
 
 boxplot(d$c2_length) # look for outliers (beyond the whiskers), or
 boxplot(d$c2_length,horizontal = T)
+
+## Generate separate boxplots for each category
+boxplot(d$c2_length~d$category,horizontal = T)
+
+## Look at phrase frequency
+plot(sort(log(d$phrase_freq),decreasing = T),ylab='Log Phrase Frequency')
+
 
 ```
 
