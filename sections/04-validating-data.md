@@ -81,4 +81,4 @@ tail(p,15) # show the bottom 15 rows
 
 ### Screenshot example
 
-<img src="https://github.com/cdl-geneseo/r/blob/main/images/console2.png" height="500">
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/console2.png" height="700">
