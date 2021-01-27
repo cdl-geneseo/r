@@ -39,3 +39,10 @@ names(n)[2] = "neg_freq"
 ## Recoding
 
 Some analyses and visualizations require a change to the nature of a variable through a transformation (e.g., converting numbers to category labels, computing the logarithm of values). In other situations, it is necessary to create new variables based on existing variables. To change variables or create new variables based on existing variables, we first need to access a variable from within a data frame. We can access a single variable using the **$** convention.
+
+```r
+p$phrase_freq # get all 4061 values of the phrase frequency variable
+length(p$phrase_freq) # 4061
+```
+
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/console3.png" height="500">
