@@ -40,15 +40,42 @@ names(n)[2] = "neg_freq"
 
 Some analyses and visualizations require a change to the nature of a variable through a transformation (e.g., converting numbers to category labels, computing the logarithm of values). In other situations, it is necessary to create new variables based on existing variables. To change variables or create new variables based on existing variables, we first need to access a variable from within a data frame. We can access a single variable using the **$** convention.
 
+### Accessing a single variable
+
 ```r
 p$phrase_freq # get all 4061 values of the phrase frequency variable
 
 length(p$phrase_freq) # 4061
 
 mean(p$phrase_freq) # produces an NA because there are missing data, try this instead:
-mean(p$phrase_freq, na.rm = T) # removes NAs, mean = 5.516932
+mean(p$phrase_freq, na.rm = T) # remove NAs, mean = 5.516932
 ```
 
 ### A pop-up reveals the variable names
 <img src="https://github.com/cdl-geneseo/r/blob/main/images/console3.png" height="400">
 
+### Creating and transforming variables
+
+First, we will create a new variable and assign it new values. The new variable name can be declared at the same time that values are assigned. When referencing a variable within a data frame that does not exist, *R* creates the variable. 
+
+```r
+# Copy & transform a variable
+p$log_phrase_freq = log(p$phrase_freq+1)
+head(p,4)
+
+p$c2_length = nchar(p$c2) # creates a new variable and assigns it the number of characters in c2
+head(p,4)
+
+p$category = NA # creates new variable
+head(p,4)
+
+p$category[p$c1=='not'] = 1 # phrases with 'not' are designated as category 1
+p$category[p$c1!='not'] = 2 # phrases with a contraction are designated as category 2
+head(p,4)
+
+# At another time, we might decide to recode a given variable
+p$category[p$category==1] = "word"
+p$category[p$category==2] = "contraction"
+head(p,4)
+
+```
