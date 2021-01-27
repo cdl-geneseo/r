@@ -49,13 +49,19 @@ summary(n) # summary
 
 ### Check variable names & types
 
-Note the **[]** subset function is a special unamed function in *R*.
+Note the **[]** subset function is a special unamed function in *R*. Within the square brackets, we specify the element number, which can be stated explicitly or in the form of another function that evaluates to the desired number.
 
 ```r
 names(p) # get all variable names
+
 names(p)[1] # get the 1st variable name
 names(p)[1:2] # first two variable names
+
 names(p)[1:ncol(p)] # equivalent to names(p)
+
+names(p)[ncol(p)] # last variable, or
+names(p)[dim(p)[2]] # recall that the second reported element of dim() is the number of columns
+
 ```
 
 ### Data preview
