@@ -1,4 +1,4 @@
-← [Functions & Operators](02-functions-operators.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Validating Data](04-validating-data.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [Functions & Operators](02-functions-operators.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Validating Data](04-validating-data.md) →
 ---
 
 # 3. Importing Data

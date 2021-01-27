@@ -1,5 +1,4 @@
-↻ [Start](../README.md) | ← [Merging, Filtering & Aggregating](06-merging-filtering-aggregating-data.md)
----
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;← [Merging, Filtering & Aggregating](06-merging-filtering-aggregating-data.md)
 
 # 7. Visualization Techniques
 

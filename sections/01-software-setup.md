@@ -1,4 +1,4 @@
-↻ [Start/README](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Functions & Operators](02-functions-operators.md) →
+↻ [Start](../README.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Functions & Operators](02-functions-operators.md) →
 ---
 
 # 1. Getting Started
