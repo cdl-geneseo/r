@@ -69,7 +69,7 @@ head(do_not[order(do_not$phrase_freq,decreasing = T),]) # the most frequent is "
 
 ### Aggregating
 
-When we begin to analyze the data, we often would like to know the average of something. For example, what is the average phrase frequency? We can compute the average based on all 4016 remaining phrases or we can compute the average separately for each type of negation (e.g., not, don't, didn't). Aggregation techniques allow us to first combine observations of the same type and then compute statistics such as mean, median, mode, etc.
+When we begin to analyze the data, we often would like to know the average of something. For example, what is the average phrase frequency? We can compute the average based on all 4016 remaining phrases or we can compute the average separately for each type of negation (e.g., *not*, *don't*, *didn't*). Aggregation techniques allow us to first combine observations of the same type and then compute statistics such as mean, median, mode, etc.
 
 ```r
 library(plyr) # contains the ddply() function (package installed in the software setup lesson)
