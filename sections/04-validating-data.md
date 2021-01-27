@@ -3,10 +3,10 @@
 
 # 4. Validating Data
 
-Okay, we have imported the data. Did it work...correctly? Here's where it is important to think about the data. I often ask myself the following questions:
+Okay, now we have imported the data. Did it work...correctly? Here's where it is important to *think* about the data. I often ask myself the following questions:
 
-1. How many observations do I expect there to be? (this corresponds to the number of rows)
-2. How many variables were there? (this corresponds to the number of columns)
+1. How many observations do I expect there to be? (number of rows?)
+2. How many variables were there? (number of columns?)
 
 Although it is tempting to look at the *entire* data object (and we can certainly do so using the **View()** function), scrolling through large data sets is often impractical and of little value. Consider for example, working with a data set that include 20+ variables and 10s of thousands of rows. In these cases, I prefer to think about the anticipated dimensions (i.e., the number of rows and columns) and check by asking *R* about those dimensions. I also like to check the variable names, and the variable types. Finally, it is always nice to get a peak at the data, if only the top/bottom few rows.
 
