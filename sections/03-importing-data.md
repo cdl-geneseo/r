@@ -48,7 +48,7 @@ setwd("/Users/pastizzo/Desktop/") # the path will vary by operating system
 dir() # provides a list of files, akin to ls in a terminal
 ```
 
-Import data and save as a new data object:
+Import data and save as a new data object (n.b., you can choose virtually any name for the data object as long as it starts with a letter):
 
 ```r
 phrases = read.csv('phrases.csv',header=T) # opens from current directory, or
@@ -64,8 +64,8 @@ negations = read.xlsx('negations.xlsx') # or,
 negations = read.xlsx(file.choose())
 
 dim(negations) # check dimensions: 28 rows and 2 columns
-head(phrases) # view top 6 rows
-View(phrases) # spreadsheet view
+head(negations) # view top 6 rows
+View(negations) # spreadsheet view
 ```
 
 ### Screenshot of R code
