@@ -14,6 +14,8 @@ x = c(3,4,5,4,5,6,7,8,9,7)
 mean(x)
 ```
 
+![Spreadsheet Image](./images/excel.png)
+
 A function performs an operation or a set of operations to accomplish a task. For example, the mean(x) function is used to sum the values of variable *x* and divide the sum by the number of *x* values. *R* comes with many functions that are part of pre-installed packages (n.b., a package is a collection of functions that serve a related purpose).
 
 It is also possible to define your own functions. The following is an example of creating and storing a custom function that computes and reports the mean. Notice that the function itself is constructed from other functions.
