@@ -32,10 +32,11 @@ The data for this workshop derive from the Michigan Corpus of Academic Spoken En
 
 One file format is a CSV (comma-separated values) and the other is Excel (xlsx). I included two typical formats to provide an opportunity to import two different file formats.
 
-There are two methods to navigate to the downloaded files:
+There are three methods to navigate to the downloaded files:
 
 1. Directory-based approach: set the working directory within *R* before importing data.
 2. File-chooser approach: choose the working directory with a file selection window.
+3. URL approach: specify the URL of a file stored remotely
 
 If you choose the directory-based approach, first check the current working directory with **getwd()** and then set the working directed with **setwd()** to the location where the data files are located.
 
@@ -48,8 +49,9 @@ dir() # provides a list of files, akin to ls in a terminal
 Import data and save as a new data object (n.b., you can choose virtually any name for the data object as long as it starts with a letter):
 
 ```r
-phrases = read.csv('phrases.csv',header=T) # opens from current directory, or
-phrases = read.csv(file.choose(),header=T) # launches a file chooser
+phrases = read.csv('phrases.csv') # opens from current directory, or
+phrases = read.csv(file.choose()) # launches a file chooser, or
+phrases = read.csv('https://raw.githubusercontent.com/cdl-geneseo/r/main/data_files/phrases.csv')
 
 dim(phrases) # check dimensions: 4061 rows and 4 columns
 head(phrases) # view top 6 rows
@@ -58,7 +60,8 @@ View(phrases) # spreadsheet view
 library(openxlsx) # only needed once per session
 
 negations = read.xlsx('negations.xlsx') # or,
-negations = read.xlsx(file.choose())
+negations = read.xlsx(file.choose()) # or,
+negations = read.xlsx('https://github.com/cdl-geneseo/r/raw/main/data_files/negations.xlsx')
 
 dim(negations) # check dimensions: 28 rows and 2 columns
 head(negations) # view top 6 rows
