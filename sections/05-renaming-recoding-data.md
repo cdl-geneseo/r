@@ -42,7 +42,13 @@ Some analyses and visualizations require a change to the nature of a variable th
 
 ```r
 p$phrase_freq # get all 4061 values of the phrase frequency variable
+
 length(p$phrase_freq) # 4061
+
+mean(p$phrase_freq) # produces an NA because there are missing data, try this instead:
+mean(p$phrase_freq, na.rm = T) # removes NAs, mean = 5.516932
 ```
 
-<img src="https://github.com/cdl-geneseo/r/blob/main/images/console3.png" height="500">
+### A pop-up reveals the variable names
+<img src="https://github.com/cdl-geneseo/r/blob/main/images/console3.png" height="400">
+
