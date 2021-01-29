@@ -15,7 +15,7 @@ names(n)
 
 ## Renaming
 
-Notice that the first column in the phrases data frame (**p**) contains the same words as the first column in the negation data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
+The first column in the phrases data frame (**p**) happens to contain the same words as the first column in the negation data frame (**n**). In the next lesson, we will merge these two data frames into a single data object, which means that it will be helpful to have a shared variable name. At the same time, data frame **p** and **n** both contain frequency data in a column called **freq**. When merged, we would like to distinguish these two different frequencies. In the phrase (**p**) data frame, **freq** corresponds to the frequency of each phrase (e.g., "don't worry"). In the negation (**n**) data frame, **freq** corresponds to the frequency of each modifier (e.g., "don't").
 
 Our goals are to:
 
@@ -23,6 +23,14 @@ Our goals are to:
 2. rename the **freq** variables to be more specific
 
 ```r
+## Check values of the first variable in p and n
+sort(unique(p$c1))
+sort(unique(n$version))
+
+## If we exclude the missing value in p$c1, then the two variables are identical
+setdiff(p$c1[p$c1!=''],n$version)
+
+## Check on variable names, and rename to facilitate merging
 names(n)[1] # confirm that this is the correct variable
 
 names(n)[1] = "c1" # assign a new name that matches the first variable in p, or
