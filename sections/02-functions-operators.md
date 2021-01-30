@@ -60,6 +60,7 @@ To familiarize yourself with the mathematical and logical operators, try each of
 | Greater or equal | >= |  3 >= 4 | FALSE |
 | Less than | < |  4 < 1 | FALSE |
 | Less or equal | <= |  3 <= 3 | TRUE |
+| Not equal | != | 3 != 4 | TRUE |
 | Square Root | sqrt() |  sqrt(4) | 2 |
 | Factorial | factorial() |  factorial(4) | 24 |
 | Logarithm | log() |  log(732) | 6.595781 |

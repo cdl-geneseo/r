@@ -22,13 +22,42 @@ Our goals are to:
 1. rename the first variable in the negation (**n**) data frame to match the first variable in the phrases data frame (**p**)
 2. rename the **freq** variables to be more specific
 
-```r
-## Check values of the first variable in p and n
-sort(unique(p$c1))
-sort(unique(n$version))
+First, let's check the values of the first variable in p and n to make sure they're the same.
 
-## If we exclude the missing value in p$c1, then the two variables are identical
+```r
+sort(unique(p$c1))
+
+ [1] ""  "ain't"  "aren't"  "can't"  "couldn't"  "didn't"  "doesn't"     
+ [8] "don't"  "don't-"  "don't'"  "hadn't"  "hadn'ta"  "hasn't"   "haven't"     
+[15] "isn't"  "mightn't"  "mustn't"  "needn't"  "not"  "shouldn't"  "shouldn't've"
+[22] "shouldn'ta"  "wasn't"  "weren't"  "won't"  "wouldn't"  "wouldn't-"  "wouldn't've" 
+[29] "wouldn'ta" 
+
+sort(unique(n$version))
+ [1] "ain't"  "aren't"  "can't"  "couldn't"  "didn't"  "doesn't"  "don't"       
+ [8] "don't-"  "don't'"  "hadn't"  "hadn'ta"  "hasn't"  "haven't"  "isn't"       
+[15] "mightn't"  "mustn't"  "needn't"  "not"  "shouldn't"  "shouldn't've"  "shouldn'ta"  
+[22] "wasn't"  "weren't"  "won't"  "wouldn't"  "wouldn't-"  "wouldn't've"  "wouldn'ta"   
+```
+
+Well, actually, there's a difference. There's a missing value (`""`)in the first column of **p**.
+
+We can compare the first columns of the two data sets (`c1`, `version`) using the `setdiff()` function.
+
+```r
+setdiff(p$c1,n$version)
+[1] ""
+```
+The output confirms that the empty value is a difference between the two files. We can also run `set(diff)` using the logical operator `!=` (not equal) to exclude the empty value.
+
+```r
 setdiff(p$c1[p$c1!=''],n$version)
+character(0)
+```
+
+When we exclude the empty value, we see no difference between the values in the first column of each data set. 
+
+We can now proceed with our merger.
 
 ## Check on variable names, and rename to facilitate merging
 names(n)[1] # confirm that this is the correct variable
