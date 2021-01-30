@@ -42,7 +42,7 @@ sort(unique(n$version))
 
 Well, actually, there's a difference. There's a missing value (`""`)in the first column of **p**.
 
-We can compare the first columns of the two data sets (`c1`, `version`) using the `setdiff()` function.
+We can compare the first columns of the two data frames (`c1`, `version`) using the `setdiff()` function. To point to the variables, we need to use the `$` convention.
 
 ```r
 setdiff(p$c1,n$version)
@@ -55,7 +55,7 @@ setdiff(p$c1[p$c1!=''],n$version)
 character(0)
 ```
 
-When we exclude the empty value, we see no difference between the values in the first column of each data set. 
+When we exclude the empty value, we see no difference between the values in the first column of each data frame. 
 
 We can now proceed with our merger.
 
@@ -75,7 +75,7 @@ names(n)[2] = "neg_freq"
 
 ## Recoding
 
-Some analyses and visualizations require a change to the nature of a variable through a transformation (e.g., converting numbers to category labels, computing the logarithm of values). In other situations, it is necessary to create new variables based on existing variables. To change variables or create new variables based on existing variables, we first need to access a variable from within a data frame. We can access a single variable using the **$** convention.
+Some analyses and visualizations require a change to the nature of a variable through a transformation (e.g., converting numbers to category labels, computing the logarithm of values). In other situations, it is necessary to create new variables based on existing variables. To change variables or create new variables based on existing variables, we first need to access a variable from within a data frame. Again, we access a single variable using the `$` convention.
 
 ### Accessing a single variable
 
