@@ -71,8 +71,6 @@ names(p)[4] = "phrase_freq"
 names(n)[2] # freq variable for negations
 names(n)[2] = "neg_freq"
 
-```
-
 ## Recoding
 
 Some analyses and visualizations require a change to the nature of a variable through a transformation (e.g., converting numbers to category labels, computing the logarithm of values). In other situations, it is necessary to create new variables based on existing variables. To change variables or create new variables based on existing variables, we first need to access a variable from within a data frame. Again, we access a single variable using the `$` convention.
