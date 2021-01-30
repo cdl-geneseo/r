@@ -22,7 +22,7 @@ Our goals are to:
 1. rename the first variable in the negation (**n**) data frame to match the first variable in the phrases data frame (**p**)
 2. rename the **freq** variables to be more specific
 
-First, let's check the values of the first variable in p and n to make sure they're the same.
+First, let's check the values of the first variable in **p** and **n** to make sure they're the same.
 
 ```r
 sort(unique(p$c1))
